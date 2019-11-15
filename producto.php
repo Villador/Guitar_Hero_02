@@ -8,16 +8,6 @@ class Producto{
     private $caracteristica;
     private $stock;
 
-    public function __construct($codigo, $nombre, $descripcion, $precio, $foto, $caracteristica, $stock){
-        $this->codigo = $codigo;
-        $this->nombre = $nombre;
-        $this->descripcion = $descripcion;
-        $this->precio = $precio;
-        $this->foto = $foto;
-        $this->caracteristica = $caracteristica;
-        $this->stock = $stock;
-        }
-
         public function getCodigo(){
             return $this->codigo;
         }
