@@ -20,22 +20,4 @@ public function setusuario($usuario){
 public function setlistado($listado){
   $this->listado = $listado;
 }
-  public function leer(){
-
-  }
-  public function agregar(){
-
-  }
-  public function elimnar(){
-
-  }
-  public function modificarcant(){
-
-  }
-  public function totalizable(){
-
-  }
-  public function comprable(){
-    
-  }
 }
